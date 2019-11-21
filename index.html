@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>
+        Home
+    </title>
+    <!-- <script>
+        function submitForm(form) {
+            var url = form.attr("action");
+            var formData = $(form).serializeArray();
+            $.post(url, formData).done(function (data) {
+                alert(data);
+            });
+        }
+    </script> -->
+</head>
+
+<body>
+    <form method="POST" action="/validate">
+        <input type="text" name="strings"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
